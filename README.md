@@ -5,7 +5,8 @@ Gra w życie jest grą w sensie matematycznym, a nie grą, w którą można gra�
 2) Żywa komórka z dwoma lub trzema żyjącymi sąsiadami pozostaje żywa.
 3) We wszystkich innych przypadkach komórka staje się (lub pozostaje) martwa.
 
-Gra jest uruchamiana przez wywołanie funkcji i określenie maksymalnej liczby iteracji (bez tego DEFAULT_ITERATIONS == 64). 
+Gra jest uruchamiana przez wywołanie funkcji i określenie maksymalnej liczby iteracji 
+(bez tego DEFAULT_ITERATIONS == 64). 
 
 Stan początkowy reprezentują komórki zakodowane w macierzy "global_grid". Martwe komórki są reprezentowane przez zero, a żywe komórki są reprezentowane przez 1. Pozycja komórki na siatce jest określana przez jej pozycję w macierzy.
 
