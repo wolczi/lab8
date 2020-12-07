@@ -9,5 +9,7 @@ Gra jest uruchamiana przez wywołanie funkcji i określenie maksymalnej liczby i
 
 Stan początkowy reprezentują komórki zakodowane w macierzy "global_grid". Martwe komórki są reprezentowane przez zero, a żywe komórki są reprezentowane przez 1. Pozycja komórki na siatce jest określana przez jej pozycję w macierzy.
 
-W dalszej części programu mamy wysyłanie danych z poszczególnych komórek macierzy do poszczególnych procesów, oraz sprawdzanie na podstawie warunków logicznych (nr 1, 2 i 3), które elementy macierzy są "martwe", a które żywe. W ten sposób przy rożnych procesach będziemy otrzymywali różne układy komórek żywych w macierzy.
+W dalszej części programu mamy wysyłanie danych z poszczególnych komórek macierzy do poszczególnych procesów, oraz sprawdzanie na podstawie warunków logicznych (nr 1, 2 i 3), które elementy macierzy mają stać sie martwe (wpisujemy 0), a które żywe (wpisujemy 1). W ten sposób przy rożnych procesach będziemy otrzymywali różne układy komórek żywych w macierzy. Czasami wizualizacje wszystkich przejść mogą być na prawde bardzo ciekawe.
+
+
 
